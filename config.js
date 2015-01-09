@@ -10,12 +10,12 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://blog.monique-lee-piano.herokuapp.com',
+        url: 'http://monique-lee-piano-blog.herokuapp.com',
         mail: {},
         database: {
             client: 'postgres',
             connection: {
-                host: 'ec2-54-225-156-230.compute-1.amazonnews.com',
+                host: 'ec2-54-225-156-230.compute-1.amazonaws.com',
                 user: 'qnjdvjabibphds',
                 password: 'axp6uktHFDBccVuyiknR3q2kM',
                 database: 'd4hakbgsnltegs',
