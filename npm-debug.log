@@ -1,0 +1,1891 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '--production' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/blaze/Documents/Programming/blog',
+6 verbose install   [ 'bcryptjs',
+6 verbose install     'bluebird',
+6 verbose install     'body-parser',
+6 verbose install     'bookshelf',
+6 verbose install     'busboy',
+6 verbose install     'cheerio',
+6 verbose install     'colors',
+6 verbose install     'compression',
+6 verbose install     'connect-slashes',
+6 verbose install     'downsize',
+6 verbose install     'express',
+6 verbose install     'express-hbs',
+6 verbose install     'extract-zip',
+6 verbose install     'fs-extra',
+6 verbose install     'glob',
+6 verbose install     'html-to-text',
+6 verbose install     'knex',
+6 verbose install     'lodash',
+6 verbose install     'moment',
+6 verbose install     'morgan',
+6 verbose install     'node-uuid',
+6 verbose install     'nodemailer',
+6 verbose install     'oauth2orize',
+6 verbose install     'passport',
+6 verbose install     'passport-http-bearer',
+6 verbose install     'passport-oauth2-client-password',
+6 verbose install     'request',
+6 verbose install     'rss',
+6 verbose install     'semver',
+6 verbose install     'showdown-ghost',
+6 verbose install     'sqlite3',
+6 verbose install     'unidecode',
+6 verbose install     'validator',
+6 verbose install     'xml',
+6 verbose install     'mysql',
+6 verbose install     'pg.js' ] ]
+7 info preinstall ghost@0.5.7
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'bcryptjs@2.0.2', null ]
+10 verbose cache add name=undefined spec="bcryptjs@2.0.2" args=["bcryptjs@2.0.2",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'bcryptjs@2.0.2',
+11 verbose parsed url   path: 'bcryptjs@2.0.2',
+11 verbose parsed url   href: 'bcryptjs@2.0.2' }
+12 verbose cache add [ 'bluebird@2.3.10', null ]
+13 verbose cache add name=undefined spec="bluebird@2.3.10" args=["bluebird@2.3.10",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'bluebird@2.3.10',
+14 verbose parsed url   path: 'bluebird@2.3.10',
+14 verbose parsed url   href: 'bluebird@2.3.10' }
+15 verbose cache add [ 'body-parser@1.8.2', null ]
+16 verbose cache add name=undefined spec="body-parser@1.8.2" args=["body-parser@1.8.2",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'body-parser@1.8.2',
+17 verbose parsed url   path: 'body-parser@1.8.2',
+17 verbose parsed url   href: 'body-parser@1.8.2' }
+18 verbose cache add [ 'bookshelf@0.7.9', null ]
+19 verbose cache add name=undefined spec="bookshelf@0.7.9" args=["bookshelf@0.7.9",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'bookshelf@0.7.9',
+20 verbose parsed url   path: 'bookshelf@0.7.9',
+20 verbose parsed url   href: 'bookshelf@0.7.9' }
+21 verbose cache add [ 'busboy@0.2.8', null ]
+22 verbose cache add name=undefined spec="busboy@0.2.8" args=["busboy@0.2.8",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'busboy@0.2.8',
+23 verbose parsed url   path: 'busboy@0.2.8',
+23 verbose parsed url   href: 'busboy@0.2.8' }
+24 verbose cache add [ 'cheerio@0.17.0', null ]
+25 verbose cache add name=undefined spec="cheerio@0.17.0" args=["cheerio@0.17.0",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'cheerio@0.17.0',
+26 verbose parsed url   path: 'cheerio@0.17.0',
+26 verbose parsed url   href: 'cheerio@0.17.0' }
+27 verbose cache add name="bcryptjs" spec="2.0.2" args=["bcryptjs","2.0.2"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '2.0.2',
+28 verbose parsed url   path: '2.0.2',
+28 verbose parsed url   href: '2.0.2' }
+29 verbose addNamed [ 'bcryptjs', '2.0.2' ]
+30 verbose addNamed [ '2.0.2', '2.0.2' ]
+31 verbose cache add name="bluebird" spec="2.3.10" args=["bluebird","2.3.10"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '2.3.10',
+32 verbose parsed url   path: '2.3.10',
+32 verbose parsed url   href: '2.3.10' }
+33 verbose addNamed [ 'bluebird', '2.3.10' ]
+34 verbose addNamed [ '2.3.10', '2.3.10' ]
+35 verbose cache add name="body-parser" spec="1.8.2" args=["body-parser","1.8.2"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '1.8.2',
+36 verbose parsed url   path: '1.8.2',
+36 verbose parsed url   href: '1.8.2' }
+37 verbose addNamed [ 'body-parser', '1.8.2' ]
+38 verbose addNamed [ '1.8.2', '1.8.2' ]
+39 verbose cache add name="bookshelf" spec="0.7.9" args=["bookshelf","0.7.9"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '0.7.9',
+40 verbose parsed url   path: '0.7.9',
+40 verbose parsed url   href: '0.7.9' }
+41 verbose addNamed [ 'bookshelf', '0.7.9' ]
+42 verbose addNamed [ '0.7.9', '0.7.9' ]
+43 verbose cache add name="busboy" spec="0.2.8" args=["busboy","0.2.8"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: '0.2.8',
+44 verbose parsed url   path: '0.2.8',
+44 verbose parsed url   href: '0.2.8' }
+45 verbose addNamed [ 'busboy', '0.2.8' ]
+46 verbose addNamed [ '0.2.8', '0.2.8' ]
+47 verbose cache add name="cheerio" spec="0.17.0" args=["cheerio","0.17.0"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: '0.17.0',
+48 verbose parsed url   path: '0.17.0',
+48 verbose parsed url   href: '0.17.0' }
+49 verbose addNamed [ 'cheerio', '0.17.0' ]
+50 verbose addNamed [ '0.17.0', '0.17.0' ]
+51 verbose cache add [ 'colors@0.6.2', null ]
+52 verbose cache add name=undefined spec="colors@0.6.2" args=["colors@0.6.2",null]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'colors@0.6.2',
+53 verbose parsed url   path: 'colors@0.6.2',
+53 verbose parsed url   href: 'colors@0.6.2' }
+54 verbose cache add [ 'compression@1.2.0', null ]
+55 verbose cache add name=undefined spec="compression@1.2.0" args=["compression@1.2.0",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'compression@1.2.0',
+56 verbose parsed url   path: 'compression@1.2.0',
+56 verbose parsed url   href: 'compression@1.2.0' }
+57 verbose cache add [ 'connect-slashes@1.2.0', null ]
+58 verbose cache add name=undefined spec="connect-slashes@1.2.0" args=["connect-slashes@1.2.0",null]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'connect-slashes@1.2.0',
+59 verbose parsed url   path: 'connect-slashes@1.2.0',
+59 verbose parsed url   href: 'connect-slashes@1.2.0' }
+60 verbose cache add [ 'downsize@0.0.8', null ]
+61 verbose cache add name=undefined spec="downsize@0.0.8" args=["downsize@0.0.8",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'downsize@0.0.8',
+62 verbose parsed url   path: 'downsize@0.0.8',
+62 verbose parsed url   href: 'downsize@0.0.8' }
+63 verbose cache add [ 'express@4.10.2', null ]
+64 verbose cache add name=undefined spec="express@4.10.2" args=["express@4.10.2",null]
+65 verbose parsed url { protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: 'express@4.10.2',
+65 verbose parsed url   path: 'express@4.10.2',
+65 verbose parsed url   href: 'express@4.10.2' }
+66 verbose cache add [ 'express-hbs@0.7.11', null ]
+67 verbose cache add name=undefined spec="express-hbs@0.7.11" args=["express-hbs@0.7.11",null]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'express-hbs@0.7.11',
+68 verbose parsed url   path: 'express-hbs@0.7.11',
+68 verbose parsed url   href: 'express-hbs@0.7.11' }
+69 verbose cache add [ 'extract-zip@1.0.3', null ]
+70 verbose cache add name=undefined spec="extract-zip@1.0.3" args=["extract-zip@1.0.3",null]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: 'extract-zip@1.0.3',
+71 verbose parsed url   path: 'extract-zip@1.0.3',
+71 verbose parsed url   href: 'extract-zip@1.0.3' }
+72 verbose cache add [ 'fs-extra@0.12.0', null ]
+73 verbose cache add name=undefined spec="fs-extra@0.12.0" args=["fs-extra@0.12.0",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'fs-extra@0.12.0',
+74 verbose parsed url   path: 'fs-extra@0.12.0',
+74 verbose parsed url   href: 'fs-extra@0.12.0' }
+75 verbose cache add [ 'glob@4.3.1', null ]
+76 verbose cache add name=undefined spec="glob@4.3.1" args=["glob@4.3.1",null]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'glob@4.3.1',
+77 verbose parsed url   path: 'glob@4.3.1',
+77 verbose parsed url   href: 'glob@4.3.1' }
+78 verbose cache add [ 'html-to-text@1.0.0', null ]
+79 verbose cache add name=undefined spec="html-to-text@1.0.0" args=["html-to-text@1.0.0",null]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'html-to-text@1.0.0',
+80 verbose parsed url   path: 'html-to-text@1.0.0',
+80 verbose parsed url   href: 'html-to-text@1.0.0' }
+81 verbose cache add [ 'knex@0.7.3', null ]
+82 verbose cache add name=undefined spec="knex@0.7.3" args=["knex@0.7.3",null]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'knex@0.7.3',
+83 verbose parsed url   path: 'knex@0.7.3',
+83 verbose parsed url   href: 'knex@0.7.3' }
+84 verbose cache add [ 'lodash@2.4.1', null ]
+85 verbose cache add name=undefined spec="lodash@2.4.1" args=["lodash@2.4.1",null]
+86 verbose parsed url { protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: 'lodash@2.4.1',
+86 verbose parsed url   path: 'lodash@2.4.1',
+86 verbose parsed url   href: 'lodash@2.4.1' }
+87 verbose cache add [ 'moment@2.8.3', null ]
+88 verbose cache add name=undefined spec="moment@2.8.3" args=["moment@2.8.3",null]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: 'moment@2.8.3',
+89 verbose parsed url   path: 'moment@2.8.3',
+89 verbose parsed url   href: 'moment@2.8.3' }
+90 verbose cache add [ 'morgan@1.3.1', null ]
+91 verbose cache add name=undefined spec="morgan@1.3.1" args=["morgan@1.3.1",null]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'morgan@1.3.1',
+92 verbose parsed url   path: 'morgan@1.3.1',
+92 verbose parsed url   href: 'morgan@1.3.1' }
+93 verbose cache add [ 'node-uuid@1.4.1', null ]
+94 verbose cache add name=undefined spec="node-uuid@1.4.1" args=["node-uuid@1.4.1",null]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: 'node-uuid@1.4.1',
+95 verbose parsed url   path: 'node-uuid@1.4.1',
+95 verbose parsed url   href: 'node-uuid@1.4.1' }
+96 silly lockFile bf657624-bcryptjs-2-0-2 bcryptjs@2.0.2
+97 verbose lock bcryptjs@2.0.2 /home/blaze/.npm/bf657624-bcryptjs-2-0-2.lock
+98 silly lockFile 3b199f4c-bluebird-2-3-10 bluebird@2.3.10
+99 verbose lock bluebird@2.3.10 /home/blaze/.npm/3b199f4c-bluebird-2-3-10.lock
+100 silly lockFile 6bf46ddd-body-parser-1-8-2 body-parser@1.8.2
+101 verbose lock body-parser@1.8.2 /home/blaze/.npm/6bf46ddd-body-parser-1-8-2.lock
+102 silly lockFile 749b55e6-bookshelf-0-7-9 bookshelf@0.7.9
+103 verbose lock bookshelf@0.7.9 /home/blaze/.npm/749b55e6-bookshelf-0-7-9.lock
+104 silly lockFile b343f259-busboy-0-2-8 busboy@0.2.8
+105 verbose lock busboy@0.2.8 /home/blaze/.npm/b343f259-busboy-0-2-8.lock
+106 silly lockFile 26cb7f10-cheerio-0-17-0 cheerio@0.17.0
+107 verbose lock cheerio@0.17.0 /home/blaze/.npm/26cb7f10-cheerio-0-17-0.lock
+108 verbose cache add name="colors" spec="0.6.2" args=["colors","0.6.2"]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: '0.6.2',
+109 verbose parsed url   path: '0.6.2',
+109 verbose parsed url   href: '0.6.2' }
+110 verbose addNamed [ 'colors', '0.6.2' ]
+111 verbose addNamed [ '0.6.2', '0.6.2' ]
+112 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+113 verbose lock colors@0.6.2 /home/blaze/.npm/1ce149d5-colors-0-6-2.lock
+114 verbose cache add name="compression" spec="1.2.0" args=["compression","1.2.0"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '1.2.0',
+115 verbose parsed url   path: '1.2.0',
+115 verbose parsed url   href: '1.2.0' }
+116 verbose addNamed [ 'compression', '1.2.0' ]
+117 verbose addNamed [ '1.2.0', '1.2.0' ]
+118 silly lockFile 6026493a-compression-1-2-0 compression@1.2.0
+119 verbose lock compression@1.2.0 /home/blaze/.npm/6026493a-compression-1-2-0.lock
+120 verbose cache add name="connect-slashes" spec="1.2.0" args=["connect-slashes","1.2.0"]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: '1.2.0',
+121 verbose parsed url   path: '1.2.0',
+121 verbose parsed url   href: '1.2.0' }
+122 verbose addNamed [ 'connect-slashes', '1.2.0' ]
+123 verbose addNamed [ '1.2.0', '1.2.0' ]
+124 silly lockFile af24efd4-connect-slashes-1-2-0 connect-slashes@1.2.0
+125 verbose lock connect-slashes@1.2.0 /home/blaze/.npm/af24efd4-connect-slashes-1-2-0.lock
+126 verbose cache add name="downsize" spec="0.0.8" args=["downsize","0.0.8"]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: '0.0.8',
+127 verbose parsed url   path: '0.0.8',
+127 verbose parsed url   href: '0.0.8' }
+128 verbose addNamed [ 'downsize', '0.0.8' ]
+129 verbose addNamed [ '0.0.8', '0.0.8' ]
+130 silly lockFile 7e4464a3-downsize-0-0-8 downsize@0.0.8
+131 verbose lock downsize@0.0.8 /home/blaze/.npm/7e4464a3-downsize-0-0-8.lock
+132 verbose cache add name="express" spec="4.10.2" args=["express","4.10.2"]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: '4.10.2',
+133 verbose parsed url   path: '4.10.2',
+133 verbose parsed url   href: '4.10.2' }
+134 verbose addNamed [ 'express', '4.10.2' ]
+135 verbose addNamed [ '4.10.2', '4.10.2' ]
+136 silly lockFile 787e98b4-express-4-10-2 express@4.10.2
+137 verbose lock express@4.10.2 /home/blaze/.npm/787e98b4-express-4-10-2.lock
+138 verbose cache add name="express-hbs" spec="0.7.11" args=["express-hbs","0.7.11"]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: '0.7.11',
+139 verbose parsed url   path: '0.7.11',
+139 verbose parsed url   href: '0.7.11' }
+140 verbose addNamed [ 'express-hbs', '0.7.11' ]
+141 verbose addNamed [ '0.7.11', '0.7.11' ]
+142 silly lockFile 82d18d62-express-hbs-0-7-11 express-hbs@0.7.11
+143 verbose lock express-hbs@0.7.11 /home/blaze/.npm/82d18d62-express-hbs-0-7-11.lock
+144 verbose cache add name="extract-zip" spec="1.0.3" args=["extract-zip","1.0.3"]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: '1.0.3',
+145 verbose parsed url   path: '1.0.3',
+145 verbose parsed url   href: '1.0.3' }
+146 verbose addNamed [ 'extract-zip', '1.0.3' ]
+147 verbose addNamed [ '1.0.3', '1.0.3' ]
+148 silly lockFile 2a4dc43f-extract-zip-1-0-3 extract-zip@1.0.3
+149 verbose lock extract-zip@1.0.3 /home/blaze/.npm/2a4dc43f-extract-zip-1-0-3.lock
+150 verbose cache add name="fs-extra" spec="0.12.0" args=["fs-extra","0.12.0"]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: '0.12.0',
+151 verbose parsed url   path: '0.12.0',
+151 verbose parsed url   href: '0.12.0' }
+152 verbose addNamed [ 'fs-extra', '0.12.0' ]
+153 verbose addNamed [ '0.12.0', '0.12.0' ]
+154 silly lockFile c8267045-fs-extra-0-12-0 fs-extra@0.12.0
+155 verbose lock fs-extra@0.12.0 /home/blaze/.npm/c8267045-fs-extra-0-12-0.lock
+156 verbose cache add name="glob" spec="4.3.1" args=["glob","4.3.1"]
+157 verbose parsed url { protocol: null,
+157 verbose parsed url   slashes: null,
+157 verbose parsed url   auth: null,
+157 verbose parsed url   host: null,
+157 verbose parsed url   port: null,
+157 verbose parsed url   hostname: null,
+157 verbose parsed url   hash: null,
+157 verbose parsed url   search: null,
+157 verbose parsed url   query: null,
+157 verbose parsed url   pathname: '4.3.1',
+157 verbose parsed url   path: '4.3.1',
+157 verbose parsed url   href: '4.3.1' }
+158 verbose addNamed [ 'glob', '4.3.1' ]
+159 verbose addNamed [ '4.3.1', '4.3.1' ]
+160 silly lockFile 59951906-glob-4-3-1 glob@4.3.1
+161 verbose lock glob@4.3.1 /home/blaze/.npm/59951906-glob-4-3-1.lock
+162 verbose cache add name="html-to-text" spec="1.0.0" args=["html-to-text","1.0.0"]
+163 verbose parsed url { protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: '1.0.0',
+163 verbose parsed url   path: '1.0.0',
+163 verbose parsed url   href: '1.0.0' }
+164 verbose addNamed [ 'html-to-text', '1.0.0' ]
+165 verbose addNamed [ '1.0.0', '1.0.0' ]
+166 silly lockFile e1756154-html-to-text-1-0-0 html-to-text@1.0.0
+167 verbose lock html-to-text@1.0.0 /home/blaze/.npm/e1756154-html-to-text-1-0-0.lock
+168 verbose cache add name="knex" spec="0.7.3" args=["knex","0.7.3"]
+169 verbose parsed url { protocol: null,
+169 verbose parsed url   slashes: null,
+169 verbose parsed url   auth: null,
+169 verbose parsed url   host: null,
+169 verbose parsed url   port: null,
+169 verbose parsed url   hostname: null,
+169 verbose parsed url   hash: null,
+169 verbose parsed url   search: null,
+169 verbose parsed url   query: null,
+169 verbose parsed url   pathname: '0.7.3',
+169 verbose parsed url   path: '0.7.3',
+169 verbose parsed url   href: '0.7.3' }
+170 verbose addNamed [ 'knex', '0.7.3' ]
+171 verbose addNamed [ '0.7.3', '0.7.3' ]
+172 silly lockFile c74436cc-knex-0-7-3 knex@0.7.3
+173 verbose lock knex@0.7.3 /home/blaze/.npm/c74436cc-knex-0-7-3.lock
+174 verbose cache add name="lodash" spec="2.4.1" args=["lodash","2.4.1"]
+175 verbose parsed url { protocol: null,
+175 verbose parsed url   slashes: null,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: null,
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: null,
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: '2.4.1',
+175 verbose parsed url   path: '2.4.1',
+175 verbose parsed url   href: '2.4.1' }
+176 verbose addNamed [ 'lodash', '2.4.1' ]
+177 verbose addNamed [ '2.4.1', '2.4.1' ]
+178 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+179 verbose lock lodash@2.4.1 /home/blaze/.npm/8502be2a-lodash-2-4-1.lock
+180 verbose cache add name="moment" spec="2.8.3" args=["moment","2.8.3"]
+181 verbose parsed url { protocol: null,
+181 verbose parsed url   slashes: null,
+181 verbose parsed url   auth: null,
+181 verbose parsed url   host: null,
+181 verbose parsed url   port: null,
+181 verbose parsed url   hostname: null,
+181 verbose parsed url   hash: null,
+181 verbose parsed url   search: null,
+181 verbose parsed url   query: null,
+181 verbose parsed url   pathname: '2.8.3',
+181 verbose parsed url   path: '2.8.3',
+181 verbose parsed url   href: '2.8.3' }
+182 verbose addNamed [ 'moment', '2.8.3' ]
+183 verbose addNamed [ '2.8.3', '2.8.3' ]
+184 silly lockFile 707ecd2d-moment-2-8-3 moment@2.8.3
+185 verbose lock moment@2.8.3 /home/blaze/.npm/707ecd2d-moment-2-8-3.lock
+186 verbose cache add name="morgan" spec="1.3.1" args=["morgan","1.3.1"]
+187 verbose parsed url { protocol: null,
+187 verbose parsed url   slashes: null,
+187 verbose parsed url   auth: null,
+187 verbose parsed url   host: null,
+187 verbose parsed url   port: null,
+187 verbose parsed url   hostname: null,
+187 verbose parsed url   hash: null,
+187 verbose parsed url   search: null,
+187 verbose parsed url   query: null,
+187 verbose parsed url   pathname: '1.3.1',
+187 verbose parsed url   path: '1.3.1',
+187 verbose parsed url   href: '1.3.1' }
+188 verbose addNamed [ 'morgan', '1.3.1' ]
+189 verbose addNamed [ '1.3.1', '1.3.1' ]
+190 silly lockFile 7bd73065-morgan-1-3-1 morgan@1.3.1
+191 verbose lock morgan@1.3.1 /home/blaze/.npm/7bd73065-morgan-1-3-1.lock
+192 verbose cache add name="node-uuid" spec="1.4.1" args=["node-uuid","1.4.1"]
+193 verbose parsed url { protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: '1.4.1',
+193 verbose parsed url   path: '1.4.1',
+193 verbose parsed url   href: '1.4.1' }
+194 verbose addNamed [ 'node-uuid', '1.4.1' ]
+195 verbose addNamed [ '1.4.1', '1.4.1' ]
+196 silly lockFile 7c2028cd-node-uuid-1-4-1 node-uuid@1.4.1
+197 verbose lock node-uuid@1.4.1 /home/blaze/.npm/7c2028cd-node-uuid-1-4-1.lock
+198 verbose cache add [ 'nodemailer@0.7.1', null ]
+199 verbose cache add name=undefined spec="nodemailer@0.7.1" args=["nodemailer@0.7.1",null]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: 'nodemailer@0.7.1',
+200 verbose parsed url   path: 'nodemailer@0.7.1',
+200 verbose parsed url   href: 'nodemailer@0.7.1' }
+201 verbose cache add [ 'oauth2orize@1.0.1', null ]
+202 verbose cache add name=undefined spec="oauth2orize@1.0.1" args=["oauth2orize@1.0.1",null]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: 'oauth2orize@1.0.1',
+203 verbose parsed url   path: 'oauth2orize@1.0.1',
+203 verbose parsed url   href: 'oauth2orize@1.0.1' }
+204 verbose cache add [ 'passport@0.2.0', null ]
+205 verbose cache add name=undefined spec="passport@0.2.0" args=["passport@0.2.0",null]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: 'passport@0.2.0',
+206 verbose parsed url   path: 'passport@0.2.0',
+206 verbose parsed url   href: 'passport@0.2.0' }
+207 verbose cache add [ 'passport-http-bearer@1.0.1', null ]
+208 verbose cache add name=undefined spec="passport-http-bearer@1.0.1" args=["passport-http-bearer@1.0.1",null]
+209 verbose parsed url { protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: 'passport-http-bearer@1.0.1',
+209 verbose parsed url   path: 'passport-http-bearer@1.0.1',
+209 verbose parsed url   href: 'passport-http-bearer@1.0.1' }
+210 verbose cache add [ 'passport-oauth2-client-password@0.1.1', null ]
+211 verbose cache add name=undefined spec="passport-oauth2-client-password@0.1.1" args=["passport-oauth2-client-password@0.1.1",null]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: 'passport-oauth2-client-password@0.1.1',
+212 verbose parsed url   path: 'passport-oauth2-client-password@0.1.1',
+212 verbose parsed url   href: 'passport-oauth2-client-password@0.1.1' }
+213 verbose cache add [ 'request@2.47.0', null ]
+214 verbose cache add name=undefined spec="request@2.47.0" args=["request@2.47.0",null]
+215 verbose parsed url { protocol: null,
+215 verbose parsed url   slashes: null,
+215 verbose parsed url   auth: null,
+215 verbose parsed url   host: null,
+215 verbose parsed url   port: null,
+215 verbose parsed url   hostname: null,
+215 verbose parsed url   hash: null,
+215 verbose parsed url   search: null,
+215 verbose parsed url   query: null,
+215 verbose parsed url   pathname: 'request@2.47.0',
+215 verbose parsed url   path: 'request@2.47.0',
+215 verbose parsed url   href: 'request@2.47.0' }
+216 verbose cache add [ 'rss@1.0.0', null ]
+217 verbose cache add name=undefined spec="rss@1.0.0" args=["rss@1.0.0",null]
+218 verbose parsed url { protocol: null,
+218 verbose parsed url   slashes: null,
+218 verbose parsed url   auth: null,
+218 verbose parsed url   host: null,
+218 verbose parsed url   port: null,
+218 verbose parsed url   hostname: null,
+218 verbose parsed url   hash: null,
+218 verbose parsed url   search: null,
+218 verbose parsed url   query: null,
+218 verbose parsed url   pathname: 'rss@1.0.0',
+218 verbose parsed url   path: 'rss@1.0.0',
+218 verbose parsed url   href: 'rss@1.0.0' }
+219 verbose cache add [ 'semver@4.1.0', null ]
+220 verbose cache add name=undefined spec="semver@4.1.0" args=["semver@4.1.0",null]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: 'semver@4.1.0',
+221 verbose parsed url   path: 'semver@4.1.0',
+221 verbose parsed url   href: 'semver@4.1.0' }
+222 verbose cache add [ 'showdown-ghost@0.3.4', null ]
+223 verbose cache add name=undefined spec="showdown-ghost@0.3.4" args=["showdown-ghost@0.3.4",null]
+224 verbose parsed url { protocol: null,
+224 verbose parsed url   slashes: null,
+224 verbose parsed url   auth: null,
+224 verbose parsed url   host: null,
+224 verbose parsed url   port: null,
+224 verbose parsed url   hostname: null,
+224 verbose parsed url   hash: null,
+224 verbose parsed url   search: null,
+224 verbose parsed url   query: null,
+224 verbose parsed url   pathname: 'showdown-ghost@0.3.4',
+224 verbose parsed url   path: 'showdown-ghost@0.3.4',
+224 verbose parsed url   href: 'showdown-ghost@0.3.4' }
+225 verbose cache add [ 'sqlite3@3.0.2', null ]
+226 verbose cache add name=undefined spec="sqlite3@3.0.2" args=["sqlite3@3.0.2",null]
+227 verbose parsed url { protocol: null,
+227 verbose parsed url   slashes: null,
+227 verbose parsed url   auth: null,
+227 verbose parsed url   host: null,
+227 verbose parsed url   port: null,
+227 verbose parsed url   hostname: null,
+227 verbose parsed url   hash: null,
+227 verbose parsed url   search: null,
+227 verbose parsed url   query: null,
+227 verbose parsed url   pathname: 'sqlite3@3.0.2',
+227 verbose parsed url   path: 'sqlite3@3.0.2',
+227 verbose parsed url   href: 'sqlite3@3.0.2' }
+228 verbose cache add [ 'unidecode@0.1.3', null ]
+229 verbose cache add name=undefined spec="unidecode@0.1.3" args=["unidecode@0.1.3",null]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: 'unidecode@0.1.3',
+230 verbose parsed url   path: 'unidecode@0.1.3',
+230 verbose parsed url   href: 'unidecode@0.1.3' }
+231 verbose cache add [ 'validator@3.22.1', null ]
+232 verbose cache add name=undefined spec="validator@3.22.1" args=["validator@3.22.1",null]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: 'validator@3.22.1',
+233 verbose parsed url   path: 'validator@3.22.1',
+233 verbose parsed url   href: 'validator@3.22.1' }
+234 verbose cache add [ 'xml@0.0.12', null ]
+235 verbose cache add name=undefined spec="xml@0.0.12" args=["xml@0.0.12",null]
+236 verbose parsed url { protocol: null,
+236 verbose parsed url   slashes: null,
+236 verbose parsed url   auth: null,
+236 verbose parsed url   host: null,
+236 verbose parsed url   port: null,
+236 verbose parsed url   hostname: null,
+236 verbose parsed url   hash: null,
+236 verbose parsed url   search: null,
+236 verbose parsed url   query: null,
+236 verbose parsed url   pathname: 'xml@0.0.12',
+236 verbose parsed url   path: 'xml@0.0.12',
+236 verbose parsed url   href: 'xml@0.0.12' }
+237 verbose cache add [ 'mysql@2.1.1', null ]
+238 verbose cache add name=undefined spec="mysql@2.1.1" args=["mysql@2.1.1",null]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: 'mysql@2.1.1',
+239 verbose parsed url   path: 'mysql@2.1.1',
+239 verbose parsed url   href: 'mysql@2.1.1' }
+240 verbose cache add [ 'pg.js@3.6.2', null ]
+241 verbose cache add name=undefined spec="pg.js@3.6.2" args=["pg.js@3.6.2",null]
+242 verbose parsed url { protocol: null,
+242 verbose parsed url   slashes: null,
+242 verbose parsed url   auth: null,
+242 verbose parsed url   host: null,
+242 verbose parsed url   port: null,
+242 verbose parsed url   hostname: null,
+242 verbose parsed url   hash: null,
+242 verbose parsed url   search: null,
+242 verbose parsed url   query: null,
+242 verbose parsed url   pathname: 'pg.js@3.6.2',
+242 verbose parsed url   path: 'pg.js@3.6.2',
+242 verbose parsed url   href: 'pg.js@3.6.2' }
+243 verbose cache add name="nodemailer" spec="0.7.1" args=["nodemailer","0.7.1"]
+244 verbose parsed url { protocol: null,
+244 verbose parsed url   slashes: null,
+244 verbose parsed url   auth: null,
+244 verbose parsed url   host: null,
+244 verbose parsed url   port: null,
+244 verbose parsed url   hostname: null,
+244 verbose parsed url   hash: null,
+244 verbose parsed url   search: null,
+244 verbose parsed url   query: null,
+244 verbose parsed url   pathname: '0.7.1',
+244 verbose parsed url   path: '0.7.1',
+244 verbose parsed url   href: '0.7.1' }
+245 verbose addNamed [ 'nodemailer', '0.7.1' ]
+246 verbose addNamed [ '0.7.1', '0.7.1' ]
+247 silly lockFile 6823eb56-nodemailer-0-7-1 nodemailer@0.7.1
+248 verbose lock nodemailer@0.7.1 /home/blaze/.npm/6823eb56-nodemailer-0-7-1.lock
+249 verbose cache add name="oauth2orize" spec="1.0.1" args=["oauth2orize","1.0.1"]
+250 verbose parsed url { protocol: null,
+250 verbose parsed url   slashes: null,
+250 verbose parsed url   auth: null,
+250 verbose parsed url   host: null,
+250 verbose parsed url   port: null,
+250 verbose parsed url   hostname: null,
+250 verbose parsed url   hash: null,
+250 verbose parsed url   search: null,
+250 verbose parsed url   query: null,
+250 verbose parsed url   pathname: '1.0.1',
+250 verbose parsed url   path: '1.0.1',
+250 verbose parsed url   href: '1.0.1' }
+251 verbose addNamed [ 'oauth2orize', '1.0.1' ]
+252 verbose addNamed [ '1.0.1', '1.0.1' ]
+253 silly lockFile 8bc541ef-oauth2orize-1-0-1 oauth2orize@1.0.1
+254 verbose lock oauth2orize@1.0.1 /home/blaze/.npm/8bc541ef-oauth2orize-1-0-1.lock
+255 verbose cache add name="passport" spec="0.2.0" args=["passport","0.2.0"]
+256 verbose parsed url { protocol: null,
+256 verbose parsed url   slashes: null,
+256 verbose parsed url   auth: null,
+256 verbose parsed url   host: null,
+256 verbose parsed url   port: null,
+256 verbose parsed url   hostname: null,
+256 verbose parsed url   hash: null,
+256 verbose parsed url   search: null,
+256 verbose parsed url   query: null,
+256 verbose parsed url   pathname: '0.2.0',
+256 verbose parsed url   path: '0.2.0',
+256 verbose parsed url   href: '0.2.0' }
+257 verbose addNamed [ 'passport', '0.2.0' ]
+258 verbose addNamed [ '0.2.0', '0.2.0' ]
+259 silly lockFile 315c7a7b-passport-0-2-0 passport@0.2.0
+260 verbose lock passport@0.2.0 /home/blaze/.npm/315c7a7b-passport-0-2-0.lock
+261 verbose cache add name="passport-http-bearer" spec="1.0.1" args=["passport-http-bearer","1.0.1"]
+262 verbose parsed url { protocol: null,
+262 verbose parsed url   slashes: null,
+262 verbose parsed url   auth: null,
+262 verbose parsed url   host: null,
+262 verbose parsed url   port: null,
+262 verbose parsed url   hostname: null,
+262 verbose parsed url   hash: null,
+262 verbose parsed url   search: null,
+262 verbose parsed url   query: null,
+262 verbose parsed url   pathname: '1.0.1',
+262 verbose parsed url   path: '1.0.1',
+262 verbose parsed url   href: '1.0.1' }
+263 verbose addNamed [ 'passport-http-bearer', '1.0.1' ]
+264 verbose addNamed [ '1.0.1', '1.0.1' ]
+265 silly lockFile 131bdcb0-passport-http-bearer-1-0-1 passport-http-bearer@1.0.1
+266 verbose lock passport-http-bearer@1.0.1 /home/blaze/.npm/131bdcb0-passport-http-bearer-1-0-1.lock
+267 verbose cache add name="passport-oauth2-client-password" spec="0.1.1" args=["passport-oauth2-client-password","0.1.1"]
+268 verbose parsed url { protocol: null,
+268 verbose parsed url   slashes: null,
+268 verbose parsed url   auth: null,
+268 verbose parsed url   host: null,
+268 verbose parsed url   port: null,
+268 verbose parsed url   hostname: null,
+268 verbose parsed url   hash: null,
+268 verbose parsed url   search: null,
+268 verbose parsed url   query: null,
+268 verbose parsed url   pathname: '0.1.1',
+268 verbose parsed url   path: '0.1.1',
+268 verbose parsed url   href: '0.1.1' }
+269 verbose addNamed [ 'passport-oauth2-client-password', '0.1.1' ]
+270 verbose addNamed [ '0.1.1', '0.1.1' ]
+271 silly lockFile 63c8108a-ort-oauth2-client-password-0-1-1 passport-oauth2-client-password@0.1.1
+272 verbose lock passport-oauth2-client-password@0.1.1 /home/blaze/.npm/63c8108a-ort-oauth2-client-password-0-1-1.lock
+273 verbose cache add name="request" spec="2.47.0" args=["request","2.47.0"]
+274 verbose parsed url { protocol: null,
+274 verbose parsed url   slashes: null,
+274 verbose parsed url   auth: null,
+274 verbose parsed url   host: null,
+274 verbose parsed url   port: null,
+274 verbose parsed url   hostname: null,
+274 verbose parsed url   hash: null,
+274 verbose parsed url   search: null,
+274 verbose parsed url   query: null,
+274 verbose parsed url   pathname: '2.47.0',
+274 verbose parsed url   path: '2.47.0',
+274 verbose parsed url   href: '2.47.0' }
+275 verbose addNamed [ 'request', '2.47.0' ]
+276 verbose addNamed [ '2.47.0', '2.47.0' ]
+277 silly lockFile 6725db09-request-2-47-0 request@2.47.0
+278 verbose lock request@2.47.0 /home/blaze/.npm/6725db09-request-2-47-0.lock
+279 verbose cache add name="rss" spec="1.0.0" args=["rss","1.0.0"]
+280 verbose parsed url { protocol: null,
+280 verbose parsed url   slashes: null,
+280 verbose parsed url   auth: null,
+280 verbose parsed url   host: null,
+280 verbose parsed url   port: null,
+280 verbose parsed url   hostname: null,
+280 verbose parsed url   hash: null,
+280 verbose parsed url   search: null,
+280 verbose parsed url   query: null,
+280 verbose parsed url   pathname: '1.0.0',
+280 verbose parsed url   path: '1.0.0',
+280 verbose parsed url   href: '1.0.0' }
+281 verbose addNamed [ 'rss', '1.0.0' ]
+282 verbose addNamed [ '1.0.0', '1.0.0' ]
+283 silly lockFile 9b08ad12-rss-1-0-0 rss@1.0.0
+284 verbose lock rss@1.0.0 /home/blaze/.npm/9b08ad12-rss-1-0-0.lock
+285 verbose cache add name="semver" spec="4.1.0" args=["semver","4.1.0"]
+286 verbose parsed url { protocol: null,
+286 verbose parsed url   slashes: null,
+286 verbose parsed url   auth: null,
+286 verbose parsed url   host: null,
+286 verbose parsed url   port: null,
+286 verbose parsed url   hostname: null,
+286 verbose parsed url   hash: null,
+286 verbose parsed url   search: null,
+286 verbose parsed url   query: null,
+286 verbose parsed url   pathname: '4.1.0',
+286 verbose parsed url   path: '4.1.0',
+286 verbose parsed url   href: '4.1.0' }
+287 verbose addNamed [ 'semver', '4.1.0' ]
+288 verbose addNamed [ '4.1.0', '4.1.0' ]
+289 silly lockFile 5727bb2f-semver-4-1-0 semver@4.1.0
+290 verbose lock semver@4.1.0 /home/blaze/.npm/5727bb2f-semver-4-1-0.lock
+291 verbose cache add name="showdown-ghost" spec="0.3.4" args=["showdown-ghost","0.3.4"]
+292 verbose parsed url { protocol: null,
+292 verbose parsed url   slashes: null,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: null,
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: null,
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: '0.3.4',
+292 verbose parsed url   path: '0.3.4',
+292 verbose parsed url   href: '0.3.4' }
+293 verbose addNamed [ 'showdown-ghost', '0.3.4' ]
+294 verbose addNamed [ '0.3.4', '0.3.4' ]
+295 silly lockFile 00b4bbdf-showdown-ghost-0-3-4 showdown-ghost@0.3.4
+296 verbose lock showdown-ghost@0.3.4 /home/blaze/.npm/00b4bbdf-showdown-ghost-0-3-4.lock
+297 verbose cache add name="sqlite3" spec="3.0.2" args=["sqlite3","3.0.2"]
+298 verbose parsed url { protocol: null,
+298 verbose parsed url   slashes: null,
+298 verbose parsed url   auth: null,
+298 verbose parsed url   host: null,
+298 verbose parsed url   port: null,
+298 verbose parsed url   hostname: null,
+298 verbose parsed url   hash: null,
+298 verbose parsed url   search: null,
+298 verbose parsed url   query: null,
+298 verbose parsed url   pathname: '3.0.2',
+298 verbose parsed url   path: '3.0.2',
+298 verbose parsed url   href: '3.0.2' }
+299 verbose addNamed [ 'sqlite3', '3.0.2' ]
+300 verbose addNamed [ '3.0.2', '3.0.2' ]
+301 silly lockFile b65e1446-sqlite3-3-0-2 sqlite3@3.0.2
+302 verbose lock sqlite3@3.0.2 /home/blaze/.npm/b65e1446-sqlite3-3-0-2.lock
+303 verbose cache add name="unidecode" spec="0.1.3" args=["unidecode","0.1.3"]
+304 verbose parsed url { protocol: null,
+304 verbose parsed url   slashes: null,
+304 verbose parsed url   auth: null,
+304 verbose parsed url   host: null,
+304 verbose parsed url   port: null,
+304 verbose parsed url   hostname: null,
+304 verbose parsed url   hash: null,
+304 verbose parsed url   search: null,
+304 verbose parsed url   query: null,
+304 verbose parsed url   pathname: '0.1.3',
+304 verbose parsed url   path: '0.1.3',
+304 verbose parsed url   href: '0.1.3' }
+305 verbose addNamed [ 'unidecode', '0.1.3' ]
+306 verbose addNamed [ '0.1.3', '0.1.3' ]
+307 silly lockFile a134e945-unidecode-0-1-3 unidecode@0.1.3
+308 verbose lock unidecode@0.1.3 /home/blaze/.npm/a134e945-unidecode-0-1-3.lock
+309 verbose cache add name="validator" spec="3.22.1" args=["validator","3.22.1"]
+310 verbose parsed url { protocol: null,
+310 verbose parsed url   slashes: null,
+310 verbose parsed url   auth: null,
+310 verbose parsed url   host: null,
+310 verbose parsed url   port: null,
+310 verbose parsed url   hostname: null,
+310 verbose parsed url   hash: null,
+310 verbose parsed url   search: null,
+310 verbose parsed url   query: null,
+310 verbose parsed url   pathname: '3.22.1',
+310 verbose parsed url   path: '3.22.1',
+310 verbose parsed url   href: '3.22.1' }
+311 verbose addNamed [ 'validator', '3.22.1' ]
+312 verbose addNamed [ '3.22.1', '3.22.1' ]
+313 silly lockFile 35510ec8-validator-3-22-1 validator@3.22.1
+314 verbose lock validator@3.22.1 /home/blaze/.npm/35510ec8-validator-3-22-1.lock
+315 verbose cache add name="xml" spec="0.0.12" args=["xml","0.0.12"]
+316 verbose parsed url { protocol: null,
+316 verbose parsed url   slashes: null,
+316 verbose parsed url   auth: null,
+316 verbose parsed url   host: null,
+316 verbose parsed url   port: null,
+316 verbose parsed url   hostname: null,
+316 verbose parsed url   hash: null,
+316 verbose parsed url   search: null,
+316 verbose parsed url   query: null,
+316 verbose parsed url   pathname: '0.0.12',
+316 verbose parsed url   path: '0.0.12',
+316 verbose parsed url   href: '0.0.12' }
+317 verbose addNamed [ 'xml', '0.0.12' ]
+318 verbose addNamed [ '0.0.12', '0.0.12' ]
+319 silly lockFile 9ce99a16-xml-0-0-12 xml@0.0.12
+320 verbose lock xml@0.0.12 /home/blaze/.npm/9ce99a16-xml-0-0-12.lock
+321 verbose cache add name="mysql" spec="2.1.1" args=["mysql","2.1.1"]
+322 verbose parsed url { protocol: null,
+322 verbose parsed url   slashes: null,
+322 verbose parsed url   auth: null,
+322 verbose parsed url   host: null,
+322 verbose parsed url   port: null,
+322 verbose parsed url   hostname: null,
+322 verbose parsed url   hash: null,
+322 verbose parsed url   search: null,
+322 verbose parsed url   query: null,
+322 verbose parsed url   pathname: '2.1.1',
+322 verbose parsed url   path: '2.1.1',
+322 verbose parsed url   href: '2.1.1' }
+323 verbose addNamed [ 'mysql', '2.1.1' ]
+324 verbose addNamed [ '2.1.1', '2.1.1' ]
+325 silly lockFile df0a7fd5-mysql-2-1-1 mysql@2.1.1
+326 verbose lock mysql@2.1.1 /home/blaze/.npm/df0a7fd5-mysql-2-1-1.lock
+327 verbose cache add name="pg.js" spec="3.6.2" args=["pg.js","3.6.2"]
+328 verbose parsed url { protocol: null,
+328 verbose parsed url   slashes: null,
+328 verbose parsed url   auth: null,
+328 verbose parsed url   host: null,
+328 verbose parsed url   port: null,
+328 verbose parsed url   hostname: null,
+328 verbose parsed url   hash: null,
+328 verbose parsed url   search: null,
+328 verbose parsed url   query: null,
+328 verbose parsed url   pathname: '3.6.2',
+328 verbose parsed url   path: '3.6.2',
+328 verbose parsed url   href: '3.6.2' }
+329 verbose addNamed [ 'pg.js', '3.6.2' ]
+330 verbose addNamed [ '3.6.2', '3.6.2' ]
+331 silly lockFile 95be494a-pg-js-3-6-2 pg.js@3.6.2
+332 verbose lock pg.js@3.6.2 /home/blaze/.npm/95be494a-pg-js-3-6-2.lock
+333 verbose request where is /bcryptjs
+334 verbose request registry http://registry.npmjs.org/
+335 verbose request id 23ede285aca4e043
+336 verbose url raw /bcryptjs
+337 verbose url resolving [ 'http://registry.npmjs.org/', './bcryptjs' ]
+338 verbose url resolved http://registry.npmjs.org/bcryptjs
+339 verbose request where is http://registry.npmjs.org/bcryptjs
+340 info trying registry request attempt 1 at 11:18:15
+341 http GET http://registry.npmjs.org/bcryptjs
+342 verbose request where is /compression
+343 verbose request registry http://registry.npmjs.org/
+344 verbose url raw /compression
+345 verbose url resolving [ 'http://registry.npmjs.org/', './compression' ]
+346 verbose url resolved http://registry.npmjs.org/compression
+347 verbose request where is http://registry.npmjs.org/compression
+348 info trying registry request attempt 1 at 11:18:15
+349 http GET http://registry.npmjs.org/compression
+350 verbose request where is /connect-slashes
+351 verbose request registry http://registry.npmjs.org/
+352 verbose url raw /connect-slashes
+353 verbose url resolving [ 'http://registry.npmjs.org/', './connect-slashes' ]
+354 verbose url resolved http://registry.npmjs.org/connect-slashes
+355 verbose request where is http://registry.npmjs.org/connect-slashes
+356 info trying registry request attempt 1 at 11:18:15
+357 http GET http://registry.npmjs.org/connect-slashes
+358 verbose request where is /downsize
+359 verbose request registry http://registry.npmjs.org/
+360 verbose url raw /downsize
+361 verbose url resolving [ 'http://registry.npmjs.org/', './downsize' ]
+362 verbose url resolved http://registry.npmjs.org/downsize
+363 verbose request where is http://registry.npmjs.org/downsize
+364 info trying registry request attempt 1 at 11:18:15
+365 http GET http://registry.npmjs.org/downsize
+366 verbose request where is /busboy
+367 verbose request registry http://registry.npmjs.org/
+368 verbose url raw /busboy
+369 verbose url resolving [ 'http://registry.npmjs.org/', './busboy' ]
+370 verbose url resolved http://registry.npmjs.org/busboy
+371 verbose request where is http://registry.npmjs.org/busboy
+372 info trying registry request attempt 1 at 11:18:15
+373 http GET http://registry.npmjs.org/busboy
+374 verbose request where is /express-hbs
+375 verbose request registry http://registry.npmjs.org/
+376 verbose url raw /express-hbs
+377 verbose url resolving [ 'http://registry.npmjs.org/', './express-hbs' ]
+378 verbose url resolved http://registry.npmjs.org/express-hbs
+379 verbose request where is http://registry.npmjs.org/express-hbs
+380 info trying registry request attempt 1 at 11:18:15
+381 http GET http://registry.npmjs.org/express-hbs
+382 verbose request where is /extract-zip
+383 verbose request registry http://registry.npmjs.org/
+384 verbose url raw /extract-zip
+385 verbose url resolving [ 'http://registry.npmjs.org/', './extract-zip' ]
+386 verbose url resolved http://registry.npmjs.org/extract-zip
+387 verbose request where is http://registry.npmjs.org/extract-zip
+388 info trying registry request attempt 1 at 11:18:15
+389 http GET http://registry.npmjs.org/extract-zip
+390 verbose request where is /fs-extra
+391 verbose request registry http://registry.npmjs.org/
+392 verbose url raw /fs-extra
+393 verbose url resolving [ 'http://registry.npmjs.org/', './fs-extra' ]
+394 verbose url resolved http://registry.npmjs.org/fs-extra
+395 verbose request where is http://registry.npmjs.org/fs-extra
+396 info trying registry request attempt 1 at 11:18:15
+397 http GET http://registry.npmjs.org/fs-extra
+398 verbose request where is /html-to-text
+399 verbose request registry http://registry.npmjs.org/
+400 verbose url raw /html-to-text
+401 verbose url resolving [ 'http://registry.npmjs.org/', './html-to-text' ]
+402 verbose url resolved http://registry.npmjs.org/html-to-text
+403 verbose request where is http://registry.npmjs.org/html-to-text
+404 info trying registry request attempt 1 at 11:18:15
+405 http GET http://registry.npmjs.org/html-to-text
+406 verbose request where is /knex
+407 verbose request registry http://registry.npmjs.org/
+408 verbose url raw /knex
+409 verbose url resolving [ 'http://registry.npmjs.org/', './knex' ]
+410 verbose url resolved http://registry.npmjs.org/knex
+411 verbose request where is http://registry.npmjs.org/knex
+412 info trying registry request attempt 1 at 11:18:15
+413 http GET http://registry.npmjs.org/knex
+414 verbose request where is /moment
+415 verbose request registry http://registry.npmjs.org/
+416 verbose url raw /moment
+417 verbose url resolving [ 'http://registry.npmjs.org/', './moment' ]
+418 verbose url resolved http://registry.npmjs.org/moment
+419 verbose request where is http://registry.npmjs.org/moment
+420 info trying registry request attempt 1 at 11:18:15
+421 http GET http://registry.npmjs.org/moment
+422 verbose request where is /bluebird
+423 verbose request registry http://registry.npmjs.org/
+424 verbose url raw /bluebird
+425 verbose url resolving [ 'http://registry.npmjs.org/', './bluebird' ]
+426 verbose url resolved http://registry.npmjs.org/bluebird
+427 verbose request where is http://registry.npmjs.org/bluebird
+428 info trying registry request attempt 1 at 11:18:15
+429 http GET http://registry.npmjs.org/bluebird
+430 verbose request where is /bookshelf
+431 verbose request registry http://registry.npmjs.org/
+432 verbose url raw /bookshelf
+433 verbose url resolving [ 'http://registry.npmjs.org/', './bookshelf' ]
+434 verbose url resolved http://registry.npmjs.org/bookshelf
+435 verbose request where is http://registry.npmjs.org/bookshelf
+436 info trying registry request attempt 1 at 11:18:15
+437 http GET http://registry.npmjs.org/bookshelf
+438 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+439 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+440 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+441 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+442 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+443 verbose request where is /nodemailer
+444 verbose request registry http://registry.npmjs.org/
+445 verbose url raw /nodemailer
+446 verbose url resolving [ 'http://registry.npmjs.org/', './nodemailer' ]
+447 verbose url resolved http://registry.npmjs.org/nodemailer
+448 verbose request where is http://registry.npmjs.org/nodemailer
+449 info trying registry request attempt 1 at 11:18:15
+450 http GET http://registry.npmjs.org/nodemailer
+451 verbose request where is /oauth2orize
+452 verbose request registry http://registry.npmjs.org/
+453 verbose url raw /oauth2orize
+454 verbose url resolving [ 'http://registry.npmjs.org/', './oauth2orize' ]
+455 verbose url resolved http://registry.npmjs.org/oauth2orize
+456 verbose request where is http://registry.npmjs.org/oauth2orize
+457 info trying registry request attempt 1 at 11:18:15
+458 http GET http://registry.npmjs.org/oauth2orize
+459 verbose request where is /passport
+460 verbose request registry http://registry.npmjs.org/
+461 verbose url raw /passport
+462 verbose url resolving [ 'http://registry.npmjs.org/', './passport' ]
+463 verbose url resolved http://registry.npmjs.org/passport
+464 verbose request where is http://registry.npmjs.org/passport
+465 info trying registry request attempt 1 at 11:18:15
+466 http GET http://registry.npmjs.org/passport
+467 verbose request where is /passport-http-bearer
+468 verbose request registry http://registry.npmjs.org/
+469 verbose url raw /passport-http-bearer
+470 verbose url resolving [ 'http://registry.npmjs.org/', './passport-http-bearer' ]
+471 verbose url resolved http://registry.npmjs.org/passport-http-bearer
+472 verbose request where is http://registry.npmjs.org/passport-http-bearer
+473 info trying registry request attempt 1 at 11:18:15
+474 http GET http://registry.npmjs.org/passport-http-bearer
+475 verbose request where is /passport-oauth2-client-password
+476 verbose request registry http://registry.npmjs.org/
+477 verbose url raw /passport-oauth2-client-password
+478 verbose url resolving [ 'http://registry.npmjs.org/',
+478 verbose url resolving   './passport-oauth2-client-password' ]
+479 verbose url resolved http://registry.npmjs.org/passport-oauth2-client-password
+480 verbose request where is http://registry.npmjs.org/passport-oauth2-client-password
+481 info trying registry request attempt 1 at 11:18:15
+482 http GET http://registry.npmjs.org/passport-oauth2-client-password
+483 verbose request where is /rss
+484 verbose request registry http://registry.npmjs.org/
+485 verbose url raw /rss
+486 verbose url resolving [ 'http://registry.npmjs.org/', './rss' ]
+487 verbose url resolved http://registry.npmjs.org/rss
+488 verbose request where is http://registry.npmjs.org/rss
+489 info trying registry request attempt 1 at 11:18:15
+490 http GET http://registry.npmjs.org/rss
+491 verbose request where is /showdown-ghost
+492 verbose request registry http://registry.npmjs.org/
+493 verbose url raw /showdown-ghost
+494 verbose url resolving [ 'http://registry.npmjs.org/', './showdown-ghost' ]
+495 verbose url resolved http://registry.npmjs.org/showdown-ghost
+496 verbose request where is http://registry.npmjs.org/showdown-ghost
+497 info trying registry request attempt 1 at 11:18:15
+498 http GET http://registry.npmjs.org/showdown-ghost
+499 verbose request where is /sqlite3
+500 verbose request registry http://registry.npmjs.org/
+501 verbose url raw /sqlite3
+502 verbose url resolving [ 'http://registry.npmjs.org/', './sqlite3' ]
+503 verbose url resolved http://registry.npmjs.org/sqlite3
+504 verbose request where is http://registry.npmjs.org/sqlite3
+505 info trying registry request attempt 1 at 11:18:15
+506 http GET http://registry.npmjs.org/sqlite3
+507 verbose request where is /unidecode
+508 verbose request registry http://registry.npmjs.org/
+509 verbose url raw /unidecode
+510 verbose url resolving [ 'http://registry.npmjs.org/', './unidecode' ]
+511 verbose url resolved http://registry.npmjs.org/unidecode
+512 verbose request where is http://registry.npmjs.org/unidecode
+513 info trying registry request attempt 1 at 11:18:15
+514 http GET http://registry.npmjs.org/unidecode
+515 verbose request where is /validator
+516 verbose request registry http://registry.npmjs.org/
+517 verbose url raw /validator
+518 verbose url resolving [ 'http://registry.npmjs.org/', './validator' ]
+519 verbose url resolved http://registry.npmjs.org/validator
+520 verbose request where is http://registry.npmjs.org/validator
+521 info trying registry request attempt 1 at 11:18:15
+522 http GET http://registry.npmjs.org/validator
+523 verbose request where is /xml
+524 verbose request registry http://registry.npmjs.org/
+525 verbose url raw /xml
+526 verbose url resolving [ 'http://registry.npmjs.org/', './xml' ]
+527 verbose url resolved http://registry.npmjs.org/xml
+528 verbose request where is http://registry.npmjs.org/xml
+529 info trying registry request attempt 1 at 11:18:15
+530 http GET http://registry.npmjs.org/xml
+531 verbose request where is /mysql
+532 verbose request registry http://registry.npmjs.org/
+533 verbose url raw /mysql
+534 verbose url resolving [ 'http://registry.npmjs.org/', './mysql' ]
+535 verbose url resolved http://registry.npmjs.org/mysql
+536 verbose request where is http://registry.npmjs.org/mysql
+537 info trying registry request attempt 1 at 11:18:15
+538 http GET http://registry.npmjs.org/mysql
+539 verbose request where is /pg.js
+540 verbose request registry http://registry.npmjs.org/
+541 verbose url raw /pg.js
+542 verbose url resolving [ 'http://registry.npmjs.org/', './pg.js' ]
+543 verbose url resolved http://registry.npmjs.org/pg.js
+544 verbose request where is http://registry.npmjs.org/pg.js
+545 info trying registry request attempt 1 at 11:18:15
+546 http GET http://registry.npmjs.org/pg.js
+547 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+548 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+549 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+550 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+551 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+552 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+553 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+554 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+555 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+556 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+557 verbose request where is /cheerio
+558 verbose request registry http://registry.npmjs.org/
+559 verbose url raw /cheerio
+560 verbose url resolving [ 'http://registry.npmjs.org/', './cheerio' ]
+561 verbose url resolved http://registry.npmjs.org/cheerio
+562 verbose request where is http://registry.npmjs.org/cheerio
+563 info trying registry request attempt 1 at 11:18:15
+564 verbose etag "2USPHF8MTXQ4DUIH3UM0V3Z22"
+565 http GET http://registry.npmjs.org/cheerio
+566 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+567 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+568 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+569 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+570 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+571 verbose request where is /colors
+572 verbose request registry http://registry.npmjs.org/
+573 verbose url raw /colors
+574 verbose url resolving [ 'http://registry.npmjs.org/', './colors' ]
+575 verbose url resolved http://registry.npmjs.org/colors
+576 verbose request where is http://registry.npmjs.org/colors
+577 info trying registry request attempt 1 at 11:18:15
+578 verbose etag "441SFET328JZEOJ1G35MS8DD5"
+579 http GET http://registry.npmjs.org/colors
+580 verbose request where is /node-uuid
+581 verbose request registry http://registry.npmjs.org/
+582 verbose url raw /node-uuid
+583 verbose url resolving [ 'http://registry.npmjs.org/', './node-uuid' ]
+584 verbose url resolved http://registry.npmjs.org/node-uuid
+585 verbose request where is http://registry.npmjs.org/node-uuid
+586 info trying registry request attempt 1 at 11:18:15
+587 verbose etag "8EUAVW5IVAX6VJ8ZJHEU5OXKJ"
+588 http GET http://registry.npmjs.org/node-uuid
+589 verbose request where is /glob
+590 verbose request registry http://registry.npmjs.org/
+591 verbose url raw /glob
+592 verbose url resolving [ 'http://registry.npmjs.org/', './glob' ]
+593 verbose url resolved http://registry.npmjs.org/glob
+594 verbose request where is http://registry.npmjs.org/glob
+595 info trying registry request attempt 1 at 11:18:15
+596 verbose etag "66KZOU6YT2ULO5K7OZ8M8E4G2"
+597 http GET http://registry.npmjs.org/glob
+598 verbose request where is /express
+599 verbose request registry http://registry.npmjs.org/
+600 verbose url raw /express
+601 verbose url resolving [ 'http://registry.npmjs.org/', './express' ]
+602 verbose url resolved http://registry.npmjs.org/express
+603 verbose request where is http://registry.npmjs.org/express
+604 info trying registry request attempt 1 at 11:18:15
+605 verbose etag "C06J41JS24SUI4M317E6WUU8Z"
+606 http GET http://registry.npmjs.org/express
+607 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+608 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+609 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+610 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+611 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+612 verbose request where is /request
+613 verbose request registry http://registry.npmjs.org/
+614 verbose url raw /request
+615 verbose url resolving [ 'http://registry.npmjs.org/', './request' ]
+616 verbose url resolved http://registry.npmjs.org/request
+617 verbose request where is http://registry.npmjs.org/request
+618 info trying registry request attempt 1 at 11:18:15
+619 verbose etag "E2J8BIDDW3326JQ7BJJPLOF7X"
+620 http GET http://registry.npmjs.org/request
+621 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+622 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+623 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+624 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+625 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+626 verbose request where is /morgan
+627 verbose request registry http://registry.npmjs.org/
+628 verbose url raw /morgan
+629 verbose url resolving [ 'http://registry.npmjs.org/', './morgan' ]
+630 verbose url resolved http://registry.npmjs.org/morgan
+631 verbose request where is http://registry.npmjs.org/morgan
+632 info trying registry request attempt 1 at 11:18:15
+633 verbose etag "4DVWNA8L3K2DS47U133BGJPI2"
+634 http GET http://registry.npmjs.org/morgan
+635 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+636 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+637 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+638 verbose request where is /body-parser
+639 verbose request registry http://registry.npmjs.org/
+640 verbose url raw /body-parser
+641 verbose url resolving [ 'http://registry.npmjs.org/', './body-parser' ]
+642 verbose url resolved http://registry.npmjs.org/body-parser
+643 verbose request where is http://registry.npmjs.org/body-parser
+644 info trying registry request attempt 1 at 11:18:15
+645 verbose etag "D50YWX8L0PQWHRVLT5RVLQ2VE"
+646 http GET http://registry.npmjs.org/body-parser
+647 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+648 verbose request where is /lodash
+649 verbose request registry http://registry.npmjs.org/
+650 verbose url raw /lodash
+651 verbose url resolving [ 'http://registry.npmjs.org/', './lodash' ]
+652 verbose url resolved http://registry.npmjs.org/lodash
+653 verbose request where is http://registry.npmjs.org/lodash
+654 info trying registry request attempt 1 at 11:18:15
+655 verbose etag "3DP2H7IT4FZRQM65DJ8DHHK5O"
+656 http GET http://registry.npmjs.org/lodash
+657 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+658 verbose request where is /semver
+659 verbose request registry http://registry.npmjs.org/
+660 verbose url raw /semver
+661 verbose url resolving [ 'http://registry.npmjs.org/', './semver' ]
+662 verbose url resolved http://registry.npmjs.org/semver
+663 verbose request where is http://registry.npmjs.org/semver
+664 info trying registry request attempt 1 at 11:18:15
+665 verbose etag "AQLQ3A8CCL2VZ1C1UBYYZ15GT"
+666 http GET http://registry.npmjs.org/semver
+667 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+668 info trying registry request attempt 2 at 11:18:25
+669 http GET http://registry.npmjs.org/bcryptjs
+670 info trying registry request attempt 2 at 11:18:25
+671 http GET http://registry.npmjs.org/compression
+672 info trying registry request attempt 2 at 11:18:25
+673 http GET http://registry.npmjs.org/connect-slashes
+674 info trying registry request attempt 2 at 11:18:25
+675 http GET http://registry.npmjs.org/downsize
+676 info trying registry request attempt 2 at 11:18:25
+677 http GET http://registry.npmjs.org/busboy
+678 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+679 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+680 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+681 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+682 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+683 info trying registry request attempt 2 at 11:18:25
+684 http GET http://registry.npmjs.org/express-hbs
+685 info trying registry request attempt 2 at 11:18:25
+686 http GET http://registry.npmjs.org/extract-zip
+687 info trying registry request attempt 2 at 11:18:25
+688 http GET http://registry.npmjs.org/fs-extra
+689 info trying registry request attempt 2 at 11:18:25
+690 http GET http://registry.npmjs.org/html-to-text
+691 info trying registry request attempt 2 at 11:18:25
+692 http GET http://registry.npmjs.org/knex
+693 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+694 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+695 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+696 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+697 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+698 info trying registry request attempt 2 at 11:18:25
+699 http GET http://registry.npmjs.org/moment
+700 info trying registry request attempt 2 at 11:18:25
+701 http GET http://registry.npmjs.org/bluebird
+702 info trying registry request attempt 2 at 11:18:25
+703 http GET http://registry.npmjs.org/bookshelf
+704 info trying registry request attempt 2 at 11:18:25
+705 http GET http://registry.npmjs.org/nodemailer
+706 info trying registry request attempt 2 at 11:18:25
+707 http GET http://registry.npmjs.org/oauth2orize
+708 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+709 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+710 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+711 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+712 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+713 info trying registry request attempt 2 at 11:18:25
+714 http GET http://registry.npmjs.org/passport
+715 info trying registry request attempt 2 at 11:18:25
+716 http GET http://registry.npmjs.org/passport-http-bearer
+717 info trying registry request attempt 2 at 11:18:25
+718 http GET http://registry.npmjs.org/passport-oauth2-client-password
+719 info trying registry request attempt 2 at 11:18:25
+720 http GET http://registry.npmjs.org/rss
+721 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+722 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+723 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+724 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+725 info trying registry request attempt 2 at 11:18:25
+726 http GET http://registry.npmjs.org/showdown-ghost
+727 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+728 info trying registry request attempt 2 at 11:18:25
+729 http GET http://registry.npmjs.org/sqlite3
+730 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+731 info trying registry request attempt 2 at 11:18:25
+732 http GET http://registry.npmjs.org/unidecode
+733 info trying registry request attempt 2 at 11:18:25
+734 http GET http://registry.npmjs.org/validator
+735 info trying registry request attempt 2 at 11:18:25
+736 http GET http://registry.npmjs.org/xml
+737 info trying registry request attempt 2 at 11:18:25
+738 http GET http://registry.npmjs.org/mysql
+739 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+740 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+741 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+742 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+743 info trying registry request attempt 2 at 11:18:25
+744 http GET http://registry.npmjs.org/pg.js
+745 info trying registry request attempt 2 at 11:18:25
+746 verbose etag "2USPHF8MTXQ4DUIH3UM0V3Z22"
+747 http GET http://registry.npmjs.org/cheerio
+748 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+749 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+750 info trying registry request attempt 2 at 11:18:25
+751 verbose etag "441SFET328JZEOJ1G35MS8DD5"
+752 http GET http://registry.npmjs.org/colors
+753 info trying registry request attempt 2 at 11:18:25
+754 verbose etag "8EUAVW5IVAX6VJ8ZJHEU5OXKJ"
+755 http GET http://registry.npmjs.org/node-uuid
+756 info trying registry request attempt 2 at 11:18:25
+757 verbose etag "66KZOU6YT2ULO5K7OZ8M8E4G2"
+758 http GET http://registry.npmjs.org/glob
+759 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+760 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+761 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+762 info trying registry request attempt 2 at 11:18:25
+763 verbose etag "C06J41JS24SUI4M317E6WUU8Z"
+764 http GET http://registry.npmjs.org/express
+765 info trying registry request attempt 2 at 11:18:25
+766 verbose etag "E2J8BIDDW3326JQ7BJJPLOF7X"
+767 http GET http://registry.npmjs.org/request
+768 info trying registry request attempt 2 at 11:18:25
+769 verbose etag "4DVWNA8L3K2DS47U133BGJPI2"
+770 http GET http://registry.npmjs.org/morgan
+771 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+772 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+773 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+774 info trying registry request attempt 2 at 11:18:25
+775 verbose etag "D50YWX8L0PQWHRVLT5RVLQ2VE"
+776 http GET http://registry.npmjs.org/body-parser
+777 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+778 info trying registry request attempt 2 at 11:18:25
+779 verbose etag "3DP2H7IT4FZRQM65DJ8DHHK5O"
+780 http GET http://registry.npmjs.org/lodash
+781 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+782 info trying registry request attempt 2 at 11:18:25
+783 verbose etag "AQLQ3A8CCL2VZ1C1UBYYZ15GT"
+784 http GET http://registry.npmjs.org/semver
+785 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+786 info trying registry request attempt 3 at 11:19:25
+787 http GET http://registry.npmjs.org/bcryptjs
+788 info trying registry request attempt 3 at 11:19:25
+789 http GET http://registry.npmjs.org/compression
+790 info trying registry request attempt 3 at 11:19:25
+791 http GET http://registry.npmjs.org/connect-slashes
+792 info trying registry request attempt 3 at 11:19:25
+793 http GET http://registry.npmjs.org/downsize
+794 info trying registry request attempt 3 at 11:19:25
+795 http GET http://registry.npmjs.org/busboy
+796 silly lockFile bf657624-bcryptjs-2-0-2 bcryptjs@2.0.2
+797 silly lockFile bf657624-bcryptjs-2-0-2 bcryptjs@2.0.2
+798 silly lockFile 6026493a-compression-1-2-0 compression@1.2.0
+799 silly lockFile 6026493a-compression-1-2-0 compression@1.2.0
+800 silly lockFile af24efd4-connect-slashes-1-2-0 connect-slashes@1.2.0
+801 silly lockFile af24efd4-connect-slashes-1-2-0 connect-slashes@1.2.0
+802 silly lockFile 7e4464a3-downsize-0-0-8 downsize@0.0.8
+803 silly lockFile 7e4464a3-downsize-0-0-8 downsize@0.0.8
+804 silly lockFile b343f259-busboy-0-2-8 busboy@0.2.8
+805 silly lockFile b343f259-busboy-0-2-8 busboy@0.2.8
+806 info trying registry request attempt 3 at 11:19:25
+807 http GET http://registry.npmjs.org/express-hbs
+808 info trying registry request attempt 3 at 11:19:25
+809 http GET http://registry.npmjs.org/extract-zip
+810 info trying registry request attempt 3 at 11:19:25
+811 http GET http://registry.npmjs.org/fs-extra
+812 info trying registry request attempt 3 at 11:19:25
+813 http GET http://registry.npmjs.org/html-to-text
+814 info trying registry request attempt 3 at 11:19:25
+815 http GET http://registry.npmjs.org/knex
+816 silly lockFile 82d18d62-express-hbs-0-7-11 express-hbs@0.7.11
+817 silly lockFile 82d18d62-express-hbs-0-7-11 express-hbs@0.7.11
+818 silly lockFile 2a4dc43f-extract-zip-1-0-3 extract-zip@1.0.3
+819 silly lockFile 2a4dc43f-extract-zip-1-0-3 extract-zip@1.0.3
+820 silly lockFile c8267045-fs-extra-0-12-0 fs-extra@0.12.0
+821 silly lockFile c8267045-fs-extra-0-12-0 fs-extra@0.12.0
+822 silly lockFile e1756154-html-to-text-1-0-0 html-to-text@1.0.0
+823 silly lockFile e1756154-html-to-text-1-0-0 html-to-text@1.0.0
+824 silly lockFile c74436cc-knex-0-7-3 knex@0.7.3
+825 silly lockFile c74436cc-knex-0-7-3 knex@0.7.3
+826 info trying registry request attempt 3 at 11:19:25
+827 http GET http://registry.npmjs.org/moment
+828 info trying registry request attempt 3 at 11:19:25
+829 http GET http://registry.npmjs.org/bluebird
+830 info trying registry request attempt 3 at 11:19:25
+831 http GET http://registry.npmjs.org/bookshelf
+832 info trying registry request attempt 3 at 11:19:25
+833 http GET http://registry.npmjs.org/nodemailer
+834 info trying registry request attempt 3 at 11:19:25
+835 http GET http://registry.npmjs.org/oauth2orize
+836 silly lockFile 707ecd2d-moment-2-8-3 moment@2.8.3
+837 silly lockFile 707ecd2d-moment-2-8-3 moment@2.8.3
+838 silly lockFile 3b199f4c-bluebird-2-3-10 bluebird@2.3.10
+839 silly lockFile 3b199f4c-bluebird-2-3-10 bluebird@2.3.10
+840 silly lockFile 749b55e6-bookshelf-0-7-9 bookshelf@0.7.9
+841 silly lockFile 749b55e6-bookshelf-0-7-9 bookshelf@0.7.9
+842 silly lockFile 6823eb56-nodemailer-0-7-1 nodemailer@0.7.1
+843 silly lockFile 6823eb56-nodemailer-0-7-1 nodemailer@0.7.1
+844 silly lockFile 8bc541ef-oauth2orize-1-0-1 oauth2orize@1.0.1
+845 silly lockFile 8bc541ef-oauth2orize-1-0-1 oauth2orize@1.0.1
+846 info trying registry request attempt 3 at 11:19:25
+847 http GET http://registry.npmjs.org/passport
+848 info trying registry request attempt 3 at 11:19:25
+849 http GET http://registry.npmjs.org/passport-http-bearer
+850 info trying registry request attempt 3 at 11:19:25
+851 http GET http://registry.npmjs.org/passport-oauth2-client-password
+852 info trying registry request attempt 3 at 11:19:25
+853 http GET http://registry.npmjs.org/rss
+854 silly lockFile 315c7a7b-passport-0-2-0 passport@0.2.0
+855 silly lockFile 315c7a7b-passport-0-2-0 passport@0.2.0
+856 silly lockFile 131bdcb0-passport-http-bearer-1-0-1 passport-http-bearer@1.0.1
+857 silly lockFile 131bdcb0-passport-http-bearer-1-0-1 passport-http-bearer@1.0.1
+858 silly lockFile 63c8108a-ort-oauth2-client-password-0-1-1 passport-oauth2-client-password@0.1.1
+859 silly lockFile 63c8108a-ort-oauth2-client-password-0-1-1 passport-oauth2-client-password@0.1.1
+860 silly lockFile 9b08ad12-rss-1-0-0 rss@1.0.0
+861 silly lockFile 9b08ad12-rss-1-0-0 rss@1.0.0
+862 info trying registry request attempt 3 at 11:19:25
+863 http GET http://registry.npmjs.org/showdown-ghost
+864 silly lockFile 00b4bbdf-showdown-ghost-0-3-4 showdown-ghost@0.3.4
+865 silly lockFile 00b4bbdf-showdown-ghost-0-3-4 showdown-ghost@0.3.4
+866 info trying registry request attempt 3 at 11:19:25
+867 http GET http://registry.npmjs.org/sqlite3
+868 silly lockFile b65e1446-sqlite3-3-0-2 sqlite3@3.0.2
+869 silly lockFile b65e1446-sqlite3-3-0-2 sqlite3@3.0.2
+870 info trying registry request attempt 3 at 11:19:25
+871 http GET http://registry.npmjs.org/unidecode
+872 info trying registry request attempt 3 at 11:19:25
+873 http GET http://registry.npmjs.org/validator
+874 info trying registry request attempt 3 at 11:19:25
+875 http GET http://registry.npmjs.org/xml
+876 info trying registry request attempt 3 at 11:19:25
+877 http GET http://registry.npmjs.org/mysql
+878 silly lockFile a134e945-unidecode-0-1-3 unidecode@0.1.3
+879 silly lockFile a134e945-unidecode-0-1-3 unidecode@0.1.3
+880 silly lockFile 35510ec8-validator-3-22-1 validator@3.22.1
+881 silly lockFile 35510ec8-validator-3-22-1 validator@3.22.1
+882 silly lockFile 9ce99a16-xml-0-0-12 xml@0.0.12
+883 silly lockFile 9ce99a16-xml-0-0-12 xml@0.0.12
+884 silly lockFile df0a7fd5-mysql-2-1-1 mysql@2.1.1
+885 silly lockFile df0a7fd5-mysql-2-1-1 mysql@2.1.1
+886 warn optional dep failed, continuing mysql@2.1.1
+887 verbose optional dep failed, continuing [ 'mysql@2.1.1',
+887 verbose optional dep failed, continuing   { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' } ]
+888 info trying registry request attempt 3 at 11:19:25
+889 http GET http://registry.npmjs.org/pg.js
+890 info trying registry request attempt 3 at 11:19:25
+891 verbose etag "2USPHF8MTXQ4DUIH3UM0V3Z22"
+892 http GET http://registry.npmjs.org/cheerio
+893 silly lockFile 95be494a-pg-js-3-6-2 pg.js@3.6.2
+894 silly lockFile 95be494a-pg-js-3-6-2 pg.js@3.6.2
+895 silly registry.get cb [ 304, undefined ]
+896 verbose etag http://registry.npmjs.org/cheerio from cache
+897 warn optional dep failed, continuing pg.js@3.6.2
+898 verbose optional dep failed, continuing [ 'pg.js@3.6.2',
+898 verbose optional dep failed, continuing   { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' } ]
+899 info trying registry request attempt 3 at 11:19:25
+900 verbose etag "441SFET328JZEOJ1G35MS8DD5"
+901 http GET http://registry.npmjs.org/colors
+902 info trying registry request attempt 3 at 11:19:25
+903 verbose etag "8EUAVW5IVAX6VJ8ZJHEU5OXKJ"
+904 http GET http://registry.npmjs.org/node-uuid
+905 silly registry.get cb [ 304, undefined ]
+906 verbose etag http://registry.npmjs.org/colors from cache
+907 silly registry.get cb [ 304, undefined ]
+908 verbose etag http://registry.npmjs.org/node-uuid from cache
+909 info trying registry request attempt 3 at 11:19:25
+910 verbose etag "66KZOU6YT2ULO5K7OZ8M8E4G2"
+911 http GET http://registry.npmjs.org/glob
+912 silly registry.get cb [ 304, undefined ]
+913 verbose etag http://registry.npmjs.org/glob from cache
+914 info trying registry request attempt 3 at 11:19:25
+915 verbose etag "C06J41JS24SUI4M317E6WUU8Z"
+916 http GET http://registry.npmjs.org/express
+917 info trying registry request attempt 3 at 11:19:25
+918 verbose etag "E2J8BIDDW3326JQ7BJJPLOF7X"
+919 http GET http://registry.npmjs.org/request
+920 info trying registry request attempt 3 at 11:19:25
+921 verbose etag "4DVWNA8L3K2DS47U133BGJPI2"
+922 http GET http://registry.npmjs.org/morgan
+923 info trying registry request attempt 3 at 11:19:25
+924 verbose etag "D50YWX8L0PQWHRVLT5RVLQ2VE"
+925 http GET http://registry.npmjs.org/body-parser
+926 silly registry.get cb [ 304, undefined ]
+927 verbose etag http://registry.npmjs.org/express from cache
+928 silly registry.get cb [ 304, undefined ]
+929 verbose etag http://registry.npmjs.org/request from cache
+930 silly registry.get cb [ 304, undefined ]
+931 verbose etag http://registry.npmjs.org/morgan from cache
+932 silly registry.get cb [ 304, undefined ]
+933 verbose etag http://registry.npmjs.org/body-parser from cache
+934 info trying registry request attempt 3 at 11:19:25
+935 verbose etag "3DP2H7IT4FZRQM65DJ8DHHK5O"
+936 http GET http://registry.npmjs.org/lodash
+937 silly registry.get cb [ 304, undefined ]
+938 verbose etag http://registry.npmjs.org/lodash from cache
+939 info trying registry request attempt 3 at 11:19:25
+940 verbose etag "AQLQ3A8CCL2VZ1C1UBYYZ15GT"
+941 http GET http://registry.npmjs.org/semver
+942 silly registry.get cb [ 304, undefined ]
+943 verbose etag http://registry.npmjs.org/semver from cache
+944 silly lockFile 59951906-glob-4-3-1 glob@4.3.1
+945 silly lockFile 59951906-glob-4-3-1 glob@4.3.1
+946 silly lockFile 44c882cb-s-org-request-request-2-47-0-tgz http://registry.npmjs.org/request/-/request-2.47.0.tgz
+947 verbose lock http://registry.npmjs.org/request/-/request-2.47.0.tgz /home/blaze/.npm/44c882cb-s-org-request-request-2-47-0-tgz.lock
+948 silly lockFile 45c57c51-ody-parser-body-parser-1-8-2-tgz http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+949 verbose lock http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz /home/blaze/.npm/45c57c51-ody-parser-body-parser-1-8-2-tgz.lock
+950 verbose addRemoteTarball [ 'http://registry.npmjs.org/request/-/request-2.47.0.tgz',
+950 verbose addRemoteTarball   '09e9fd1a4fed6593a805ef8202b20f0c5ecb485f' ]
+951 verbose addRemoteTarball [ 'http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz',
+951 verbose addRemoteTarball   'cb55519e748f2ac89bd3c8e34cb759d391c4d67d' ]
+952 silly lockFile 7f72bc64-pmjs-org-morgan-morgan-1-3-1-tgz http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+953 verbose lock http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz /home/blaze/.npm/7f72bc64-pmjs-org-morgan-morgan-1-3-1-tgz.lock
+954 verbose addRemoteTarball [ 'http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz',
+954 verbose addRemoteTarball   '5c2ae66ef1da03f0ac9f0f42840cca5d8bfec23f' ]
+955 silly lockFile 787e98b4-express-4-10-2 express@4.10.2
+956 silly lockFile 787e98b4-express-4-10-2 express@4.10.2
+957 silly lockFile 7c2028cd-node-uuid-1-4-1 node-uuid@1.4.1
+958 silly lockFile 7c2028cd-node-uuid-1-4-1 node-uuid@1.4.1
+959 silly lockFile 99d744b0-pmjs-org-semver-semver-4-1-0-tgz http://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+960 verbose lock http://registry.npmjs.org/semver/-/semver-4.1.0.tgz /home/blaze/.npm/99d744b0-pmjs-org-semver-semver-4-1-0-tgz.lock
+961 info retry fetch attempt 1 at 11:19:25
+962 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/request/-/request-2.47.0.tgz
+963 verbose addRemoteTarball [ 'http://registry.npmjs.org/semver/-/semver-4.1.0.tgz',
+963 verbose addRemoteTarball   'bc80a9ff68532814362cc3cfda3c7b75ed9c321c' ]
+964 info retry fetch attempt 1 at 11:19:25
+965 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+966 http GET http://registry.npmjs.org/request/-/request-2.47.0.tgz
+967 info retry fetch attempt 1 at 11:19:25
+968 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+969 error fetch failed http://registry.npmjs.org/request/-/request-2.47.0.tgz
+970 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+971 http GET http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+972 http GET http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+973 info retry fetch attempt 1 at 11:19:25
+974 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/semver/-/semver-4.1.0.tgz
+975 error fetch failed http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+976 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+977 error fetch failed http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+978 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+979 http GET http://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+980 silly lockFile 26cb7f10-cheerio-0-17-0 cheerio@0.17.0
+981 silly lockFile 26cb7f10-cheerio-0-17-0 cheerio@0.17.0
+982 error fetch failed http://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+983 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+984 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+985 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+986 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+987 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+988 info retry fetch attempt 2 at 11:19:35
+989 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/request/-/request-2.47.0.tgz
+990 http GET http://registry.npmjs.org/request/-/request-2.47.0.tgz
+991 info retry fetch attempt 2 at 11:19:35
+992 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+993 error fetch failed http://registry.npmjs.org/request/-/request-2.47.0.tgz
+994 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+995 http GET http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+996 info retry fetch attempt 2 at 11:19:35
+997 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+998 error fetch failed http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+999 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+1000 info retry fetch attempt 2 at 11:19:35
+1001 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/semver/-/semver-4.1.0.tgz
+1002 http GET http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+1003 error fetch failed http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+1004 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+1005 http GET http://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+1006 error fetch failed http://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+1007 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+1008 info retry fetch attempt 3 at 11:20:35
+1009 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/request/-/request-2.47.0.tgz
+1010 http GET http://registry.npmjs.org/request/-/request-2.47.0.tgz
+1011 info retry fetch attempt 3 at 11:20:35
+1012 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+1013 error fetch failed http://registry.npmjs.org/request/-/request-2.47.0.tgz
+1014 silly lockFile 44c882cb-s-org-request-request-2-47-0-tgz http://registry.npmjs.org/request/-/request-2.47.0.tgz
+1015 silly lockFile 44c882cb-s-org-request-request-2-47-0-tgz http://registry.npmjs.org/request/-/request-2.47.0.tgz
+1016 silly lockFile 6725db09-request-2-47-0 request@2.47.0
+1017 silly lockFile 6725db09-request-2-47-0 request@2.47.0
+1018 http GET http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+1019 error fetch failed http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+1020 silly lockFile 7f72bc64-pmjs-org-morgan-morgan-1-3-1-tgz http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+1021 silly lockFile 7f72bc64-pmjs-org-morgan-morgan-1-3-1-tgz http://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+1022 info retry fetch attempt 3 at 11:20:35
+1023 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+1024 info retry fetch attempt 3 at 11:20:35
+1025 verbose fetch to= /tmp/npm-3175-XSIpC_68/registry.npmjs.org/semver/-/semver-4.1.0.tgz
+1026 silly lockFile 7bd73065-morgan-1-3-1 morgan@1.3.1
+1027 silly lockFile 7bd73065-morgan-1-3-1 morgan@1.3.1
+1028 http GET http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+1029 http GET http://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+1030 error fetch failed http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+1031 silly lockFile 45c57c51-ody-parser-body-parser-1-8-2-tgz http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+1032 silly lockFile 45c57c51-ody-parser-body-parser-1-8-2-tgz http://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+1033 error fetch failed http://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+1034 silly lockFile 99d744b0-pmjs-org-semver-semver-4-1-0-tgz http://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+1035 silly lockFile 99d744b0-pmjs-org-semver-semver-4-1-0-tgz http://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+1036 silly lockFile 6bf46ddd-body-parser-1-8-2 body-parser@1.8.2
+1037 silly lockFile 6bf46ddd-body-parser-1-8-2 body-parser@1.8.2
+1038 silly lockFile 5727bb2f-semver-4-1-0 semver@4.1.0
+1039 silly lockFile 5727bb2f-semver-4-1-0 semver@4.1.0
+1040 error network getaddrinfo ENOTFOUND
+1040 error network This is most likely not a problem with npm itself
+1040 error network and is related to network connectivity.
+1040 error network In most cases you are behind a proxy or have bad network settings.
+1040 error network
+1040 error network If you are behind a proxy, please make sure that the
+1040 error network 'proxy' config is set properly.  See: 'npm help config'
+1041 error System Linux 3.13.0-40-generic
+1042 error command "/usr/bin/node" "/usr/bin/npm" "install" "--production"
+1043 error cwd /home/blaze/Documents/Programming/blog
+1044 error node -v v0.10.33
+1045 error npm -v 1.4.28
+1046 error syscall getaddrinfo
+1047 error code ENOTFOUND
+1048 error errno ENOTFOUND
+1049 verbose exit [ 1, true ]
