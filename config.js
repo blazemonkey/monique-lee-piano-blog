@@ -12,7 +12,16 @@ config = {
     production: {
         url: 'http://monique-lee-piano-blog.herokuapp.com',
         fileStorage: false,
-        mail: {},
+        mail: {
+           transport: 'SMTP',
+           options: {
+               service: 'Mailgun',
+               auth: {
+                   user: 'postmaster@sandbox31df26c0fd6d42dca9a7b5f1c834b03d.mailgun.org', // mailgun username
+                   pass: 'f4f1971a65d58931bad29d55a9350ac0'  // mailgun password
+               }
+           }
+        },
         database: {
             client: 'postgres',
             connection: {
