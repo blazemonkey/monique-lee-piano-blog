@@ -11,6 +11,7 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://monique-lee-piano-blog.herokuapp.com',
+        fileStorage: false,
         mail: {},
         database: {
             client: 'postgres',
@@ -28,9 +29,8 @@ config = {
             // Host to be passed to node's `net.Server#listen()`
             host: '0.0.0.0',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: 'process.env.PORT'
+            port: process.env.PORT
         },
-        fileStorage: false
     },
 
     // ### Development **(default)**
